@@ -1,0 +1,489 @@
+/* navbar */
+#navbar{
+    height: 90px;
+    border-bottom: 2px solid rgb(223, 222, 222);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#input1{ 
+    width: 400px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #F0F0F5;
+    border: none;
+    font-size: 17px;
+    padding-left: 10px;
+
+}
+
+#grub{
+    color: #E88223;
+    font-weight: 700;
+    font-size: 25px;
+    display: flex;
+}
+
+#loc{
+    font-weight: 600;
+    padding-top: 30px;
+    color: rgb(131, 130, 130);
+}
+
+#logo1
+{
+    font-size: 45px;
+    /* padding-left: 80px; */
+}
+
+#logo_n
+{
+    padding-top: 15px;
+}
+
+#loc_m{
+    display: flex;
+}
+
+#logo2{
+    font-size: 35px;
+    padding-top: 5px;
+    color: rgb(244, 35, 35);
+}
+
+#searchbar{
+    width: 400px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #F0F0F5;
+    display: flex;
+}
+
+#logo3{
+    padding-top: 8px;
+    padding-right: 20px ;
+    font-size: 23px;
+    color: rgb(126, 124, 124);
+}
+
+#search_plus{
+    display: flex;
+}
+
+#logo4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+/* main */
+
+#main{
+    height: 328px;
+    background-image: linear-gradient(white,#CDC1F5) ;
+    border-bottom-left-radius: 30px ;
+    border-bottom-right-radius: 30px ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#food1{
+    height: 300px;
+}
+
+#text1{
+    font-family: "Basis Grotesque Pro", Arial, sans-serif;;
+    font-weight: 800;
+    font-size: 48px;
+    color: rgba(2, 6, 12, 0.75);;
+}
+
+#main2{
+    height: 254px;
+    padding: 16px;
+    /* background-color: red; */
+    margin-top: 20px;
+    margin-left: 180px ;
+    margin-right: 180px ;
+    border-bottom: 4px solid rgb(231, 231, 231);
+}
+
+#text2{
+    font-family: "Basis Grotesque Pro";
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 28px;
+    color: rgba(2, 6, 12, 0.92);
+}
+
+#img_m2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main2_img{
+    width: 144px;
+    height: 180px;
+}
+/* main3 */
+#main3{
+    margin-top: 20px;
+    margin-left: 180px ;
+    margin-right: 180px ;
+    border-bottom: 4px solid rgb(231, 231, 231);
+    padding: 42px;
+    /* width: 718px; */
+    height: 380px;
+
+}
+#text3{
+    font-family: "Basis Grotesque Pro";
+    font-size: 24px;
+    font-weight: bolder;
+    line-height: 28px;
+    color: rgba(2, 6, 12, 0.92);
+    margin-bottom: 30px;
+}
+
+.img_m3{
+    height: 208px;
+    width: 312px;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+#img_m3_1{
+    background-image: url("https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/g2pklvjnapzfoc4ackou");
+    
+}
+
+#img_m3_2{
+    background-image: url("https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/f01666ac73626461d7455d9c24005cd4");
+    /* overflow-clip-margin: content-box; */
+    /* overflow: clip; */
+    background-position: 98px,155px,589px,620px;
+}
+
+#img_m3_3{
+    background-image: url("https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/ggotmnuexemu73hx0c37");
+}
+
+#img_m3_m{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    
+}
+
+#text4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+#text_img2{
+    padding-left: 48px;
+}
+
+#text_img3{
+    margin-right: 30px;
+}
+
+.star{
+    color:rgb(248, 248, 6);
+}
+
+.Dish_n{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.75);
+}
+
+.rating{
+    font-family: "Basis Grotesque Pro";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.75);
+}
+
+.menu{
+    font-family: "Basis Grotesque Pro";
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.6);
+}
+
+/* main4 */
+
+#main4{
+    margin-top: 20px;
+    margin-left: 180px ;
+    margin-right: 180px ;
+    border-bottom: 4px solid rgb(231, 231, 231);
+    padding: 42px;
+    height: 700px;
+}
+
+#text5{
+    font-family: "Basis Grotesque Pro";
+    font-size: 24px;
+    font-weight: bolder;
+    line-height: 28px;
+    color: rgba(2, 6, 12, 0.92);
+    margin-bottom: 30px;
+}
+
+#opt{
+    display: flex;
+    justify-content: space-between;
+}
+.op1{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    border: 1px solid gray;
+    box-shadow: rgba(2, 6, 12, 0.04) 0px 2px 12px;
+    border-radius: 18px;
+}
+
+.text6{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.img_m4{
+    height: 138px;
+    width: 220px;
+    background-size: cover;
+    border-radius: 20px;
+    /* margin-bottom: 10px; */
+}
+
+#img_m4_m_1,#img_m4_m_2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    flex-flow: wrap;
+    
+}
+
+#text_img2_m4_2,#text_img2_m4_1{
+    padding-left: 50px ;
+}
+
+#s_m{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+}
+
+#s_span{
+    border: 2px solid rgb(213, 212, 212);
+    border-radius: 6px;
+    padding: 10px 60px 10px 60px;
+    font-size: 18px;
+    color: rgb(52, 50, 50);
+}
+
+/* main5 */
+
+#main5{
+    margin-top: 20px;
+    margin-left: 180px ;
+    margin-right: 180px ;
+    padding: 42px;
+
+}
+
+#text7{
+    font-family: "Basis Grotesque Pro";
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 28px;
+    color: rgba(2, 6, 12, 0.92);
+    margin-bottom: 30px;
+
+}
+
+#bid_one{
+    border: 2px solid rgb(211, 208, 208);
+    border-radius: 12px;
+    padding: 40px 30px 30px 30px;
+}
+
+#heading{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(104, 102, 102);
+}
+
+#para{
+    word-spacing: 3px;
+    color: gray;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#see_m{
+    color: rgb(235, 108, 4);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* main6 */
+
+#main6{
+    margin-top: 10px;
+    margin-left: 180px ;
+    margin-right: 180px ;
+    padding: 42px;
+
+}
+
+#text8{
+    font-family: "Basis Grotesque Pro";
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 28px;
+    color: rgba(2, 6, 12, 0.92);
+    margin-bottom: 30px;
+}
+
+#opt2{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+.area{
+    width: 210px;
+    height: 19px;
+    padding: 16px;
+    border: 1px solid rgb(187, 186, 186);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(94, 93, 93);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+
+.show_m{
+    color: rgb(87, 86, 86);
+}
+
+/* main7 */
+
+#main7{
+    margin-top: 10px;
+    margin-left: 180px ;
+    margin-right: 180px ;
+    padding: 42px;
+
+}
+
+#text9{
+    font-family: "Basis Grotesque Pro";
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 28px;
+    color: rgba(2, 6, 12, 0.92);
+    margin-bottom: 30px;
+}
+
+#opt3{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+/* footer1 */
+
+#f1{
+    margin-top: 64px;
+    height: 104px;
+    background-color: rgb(240, 240, 245);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#t1{
+    font-family: "Basis Grotesque Pro";
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    color: rgba(4, 6, 8, 0.75);
+    height: 64px;
+    width: 408px;
+}
+
+/* footer_main */
+
+#footer{
+    height: 500px;
+    background-color: black;
+    color: white;
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+
+th{
+    padding-right: 150px;
+    padding-top: 50px;
+    font-size: 24px;
+}
+
+table{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#title_m{
+    font-size: 28px;
+}
+
+#symbol{
+    font-size: 42px;
+}
+
+#box_m{
+    padding: 10px;
+    border: 2px solid rgb(99, 97, 97);
+    border-radius: 10px;
+}
+
+td{
+    padding-bottom: 15px;
+    font-size: 20px;
+    color: gray;
+}
+
+#large_n{
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
